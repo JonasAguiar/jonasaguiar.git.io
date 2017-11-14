@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
+title = "Visualização de Informação"
 languageCode = "en-us"
 theme = "elate"
 
@@ -14,7 +14,7 @@ theme = "elate"
   email = ""
   # Navigation
   [params.navigation]
-    brand = "Elate"
+    brand = "Dados sobre Boqueirão"
     home = "Home"
     work = "Dados"
 
@@ -97,40 +97,37 @@ theme = "elate"
   # Counters section
   [params.counters]
     enable = true
-    title = "Stats"
+    title = "Estado Atual"
     background = "full_image_1.jpg"
 
     [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 89
-      interval = 50
-      speed = 5000
+      description = "Volume do Açude em %"
+
+      from = 0.0
+      to = 9.0
+      interval = 0.4
+      speed = 50
 
     [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
+      description = "Volume do Açude em m/3"
       from = 0
-      to = 2343409
-      interval = 50
-      speed = 5000
+      to = 38150
+      interval = 1600
+      speed = 500
 
     [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
+      description = "Dias da chegada da transposição"
       from = 0
-      to = 1302
-      interval = 50
-      speed = 5000
+      to = 217
+      interval = 1
+      speed = 500
 
     [[params.counters.item]]
-      description = "Happy clients"
-      icon = "icon-people"
+      description = "Dias fora do racionamento"
       from = 0
-      to = 52
-      interval = 50
-      speed = 5000
+      to = 112
+      interval = 1
+      speed = 500
 
   # Contact section
 
