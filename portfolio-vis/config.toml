@@ -46,9 +46,9 @@ theme = "elate"
 
   [params.intro.video]
     enable = true
-    title = "Watch the video"
+    title = "Veja o video"
     icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
+    url = "https://www.youtube.com/watch?v=nYmtuwS0Gr0"
 
 
   # Work section
