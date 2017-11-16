@@ -1,8 +1,10 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "https://jonasaguiar.github.io/jonasaguiar.git.io/"
 title = "Visualização de Informação"
 languageCode = "en-us"
 theme = "elate"
+
+publishDir = "docs"
 
 [params]
 
@@ -55,7 +57,7 @@ theme = "elate"
   [params.work]
     enable = true
     title = "Dados"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "O que os dados sobre Boqueirão nos ajuda a entender sua história hidrica durante a seca e a chegada da transposição."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
@@ -135,4 +137,4 @@ theme = "elate"
   # Footer section
   [params.footer]
     enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+    copyright = 'Created by Jonas Aguiar - Graduate of Science Computer in UFCG'
